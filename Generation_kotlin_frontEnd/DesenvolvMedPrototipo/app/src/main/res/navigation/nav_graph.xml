@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/postFragment">
+
+    <fragment
+        android:id="@+id/criarPostFragment"
+        android:name="com.generation.telasdesenvolvmed.CriarPostFragment"
+        android:label="fragment_criar_post"
+        tools:layout="@layout/fragment_criar_post" >
+        <action
+            android:id="@+id/action_criarPostFragment_to_postFragment"
+            app:destination="@id/postFragment"
+            app:popUpTo="@id/postFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.generation.telasdesenvolvmed.PostFragment"
+        android:label="fragment_post"
+        tools:layout="@layout/fragment_post" >
+        <action
+            android:id="@+id/action_postFragment_to_criarPostFragment"
+            app:destination="@id/criarPostFragment" />
+    </fragment>
+</navigation>

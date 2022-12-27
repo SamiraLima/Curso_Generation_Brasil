@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "965279437206",
+    "project_id": "desenvolvmed",
+    "storage_bucket": "desenvolvmed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965279437206:android:985a3a0ffbc063747dcdb7",
+        "android_client_info": {
+          "package_name": "com.generation.telasdesenvolvmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965279437206-nda7a97b6ufk74gsan3357adl3g3ib5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.generation.telasdesenvolvmed",
+            "certificate_hash": "49be65cead3e3e29f59b4db867a1335f823d7be7"
+          }
+        },
+        {
+          "client_id": "965279437206-0cf9poj3u1e3dn1pqm9su3nau0m0jiva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNBC5z__ApA-W66tR9oLoKvvMdrsBN1KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965279437206-0cf9poj3u1e3dn1pqm9su3nau0m0jiva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

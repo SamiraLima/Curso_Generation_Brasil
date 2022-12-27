@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">DesenvolvMED</string>
+    <string name="digite_aqui_sua_postagem">Digite aqui sua postagem:</string>
+    <string name="t_tulo_da_postagem">Título da Postagem</string>
+    <string name="informe_o_tema">Informe o tema:</string>
+    <string name="anexo_link_imgur">Anexo (link imgur)</string>
+    <string name="button">Publicar</string>
+    <string name="clips_anexo">Clips_Anexo</string>
+    <string name="action_settings" />
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="addpostagembutton">addPostagemButton</string>
+    <string name="bot_o_de_busca">Botão de Busca</string>
+    <string name="bot_o_de_home">Botão de Home</string>
+    <string name="botao_de_perfil">Botao de Perfil</string>
+    <string name="ti_tulo_da_postagem">Título da postagem</string>
+    <string name="botao_de_busca">Botão de Busca</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="botao_de_home">Botão de Home</string>
+    <string name="botaoade_perfil">Botao de Perfil</string>
+    <string name="nome">Nome</string>
+    <string name="todo">TODO</string>
+    <string name="escolha_seu_perfil">Escolha seu perfil:</string>
+    <string name="confirmar_senha">Confirmar senha</string>
+    <string name="senha">Senha</string>
+    <string name="e_mail">E_mail</string>
+    <string name="cpf">CPF</string>
+    <string name="Nome">Nome</string>
+    <string name="todo2">TODO</string>
+    <string name="bem_vindo_nfa_a_seu_cadastro_para_continuar">Bem vindo! \nFaça seu cadastro para continuar.</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="paciente">Paciente</string>
+    <string name="m_dico">Médico</string>
+    <string name="dr_gabriel">Dr Gabriel</string>
+    <string name="_100_dos_psicopatas_bebem_gua_ao_nmenos_2x_ao_dia">100% dos Psicopatas bebem água ao \nmenos 2x ao dia.</string>
+    <string name="detalhes">Detalhes</string>
+    <string name="nome1">Nome</string>
+    <string name="informa_es_r_pidas_e_precisas_sobre_sa_de_sendo_consultas_campanhas_de_vacina_o_ou_preven_o_de_doen_as_uma_comunica_o_entre_m_dicos_e_pacientes_em_tempo_real">Informações rápidas e precisas sobre saúde, sendo, consultas, campanhas de vacinação ou prevenção de doenças. Uma comunicação entre médicos e pacientes em tempo real.</string>
+    <string name="ok">OK</string>
+    <string name="o_app_referencia_em_informa_es">O app referencia em informações</string>
+    <string name="informacoes">informacoes</string>
+    <string name="nomeCadastro">Nome</string>
+    <string name="cpfCadastro">CPF</string>
+    <string name="confirmar_senhaCadastro">Confirmar senha</string>
+    <string name="pacienteCadastro">Paciente</string>
+    <string name="m_dicoCadastro">Médico</string>
+    <string name="escolha_seu_perfilCadastro">Escolha seu perfil:</string>
+    <string name="cadastrarCadastro">Cadastrar</string>
+    <string name="e_mailCadastro">E-mail</string>
+    <string name="senhaCadastro">Senha</string>
+    <string name="botao_de_voltarCadastro">botao de voltar</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string-array name="temas">
+        <item name="vacina" type="string">Vacina</item>
+        <item name="consultas" type="string">Consulta</item>
+        <item name="DoencasAutoimunes" type="string">Doenças auto imunes</item>
+        <item name="DSTS" type="string">DSTS</item>
+    </string-array>
+</resources>

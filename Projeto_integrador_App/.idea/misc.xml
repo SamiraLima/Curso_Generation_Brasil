@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Murilo/Desktop/Projetos Generation/Projeto Integrador - Cadastro/DesenvolvMed/app/src/main/res/layout/fragment_cadastro.xml" value="0.18" />
+        <entry key="..\:/Murilo/Desktop/Projetos Generation/Projeto Integrador - Cadastro/DesenvolvMed/app/src/main/res/layout/fragment_tela_de_apresentacao.xml" value="0.2441123188405797" />
+        <entry key="..\:/Murilo/Desktop/Projetos Generation/Projeto Integrador/DesenvolvMed/app/src/main/res/layout/fragment_esqueci_senha.xml" value="0.16094853683148336" />
+        <entry key="..\:/Murilo/Desktop/Projetos Generation/Projeto Integrador/DesenvolvMed/app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/Murilo/Desktop/Projetos Generation/Projeto Integrador/DesenvolvMed/app/src/main/res/layout/fragment_post.xml" value="0.1" />
+        <entry key="..\:/Murilo/Desktop/Projetos Generation/ProjetosAndroid/TelasDesenvolvmed/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1265" />
+        <entry key="..\:/Murilo/Desktop/Projetos Generation/ProjetosAndroid/TelasDesenvolvmed/app/src/main/res/drawable/ic_perfil_24.xml" value="0.1265" />
+        <entry key="..\:/Murilo/Desktop/Projetos Generation/ProjetosAndroid/TelasDesenvolvmed/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Murilo/Desktop/Projetos Generation/ProjetosAndroid/TelasDesenvolvmed/app/src/main/res/layout/card_layout.xml" value="0.33125" />
+        <entry key="..\:/Murilo/Desktop/Projetos Generation/ProjetosAndroid/TelasDesenvolvmed/app/src/main/res/layout/fragment_criar_post.xml" value="0.16" />
+        <entry key="..\:/Murilo/Desktop/Projetos Generation/ProjetosAndroid/TelasDesenvolvmed/app/src/main/res/layout/fragment_post.xml" value="0.18" />
+        <entry key="..\:/Murilo/Desktop/Projetos Generation/ProjetosAndroid/TelasDesenvolvmed/app/src/main/res/layout/toolbar.xml" value="0.25" />
+        <entry key="..\:/Users/Gabriel/Desktop/Gen/AndroidStudioGenerationBrasil/TelasDesenvolvmed/app/src/main/res/layout/fragment_criar_post.xml" value="0.1" />
+        <entry key="..\:/Users/Gabriel/Desktop/Gen/AndroidStudioGenerationBrasil/TelasDesenvolvmed/app/src/main/res/layout/fragment_post.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/Desktop/Gen/DesenvolvMed/app/src/main/res/layout/fragment_criar_post.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/drawable/bg_text_input.xml" value="0.1305" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/drawable/ic_arrow_back_24.xml" value="0.1305" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/drawable/ic_back24.xml" value="0.1305" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.178" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1305" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/layout/card_layout.xml" value="0.25" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/layout/fragment_cadastro.xml" value="0.3170933113129645" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/layout/fragment_comentarios.xml" value="0.1859375" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/layout/fragment_detalhes_postagem.xml" value="0.4" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/layout/fragment_inicial.xml" value="0.25" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/layout/fragment_post.xml" value="0.2" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/layout/fragment_register.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/layout/fragment_register_frag.xml" value="0.22" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/layout/fragment_registro.xml" value="0.33" />
+        <entry key="..\:/Users/User/DesenvolvMed/app/src/main/res/layout/fragment_tela_de_apresentacao.xml" value="0.22" />
+        <entry key="..\:/Users/admin/Desktop/Coments/DesenvolvMed/app/src/main/res/layout/card_layout.xml" value="0.33" />
+        <entry key="..\:/Users/admin/Desktop/Coments/DesenvolvMed/app/src/main/res/layout/criar_comentario.xml" value="0.33" />
+        <entry key="..\:/Users/admin/Desktop/Coments/DesenvolvMed/app/src/main/res/layout/fragment_criar_comentario.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/Coments/DesenvolvMed/app/src/main/res/layout/fragment_post.xml" value="0.14356884057971014" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tela_de_apresentacaoFragment">
+
+    <fragment
+        android:id="@+id/criarPostFragment"
+        android:name="com.generation.telasdesenvolvmed.CriarPostFragment"
+        android:label="fragment_criar_post"
+        tools:layout="@layout/fragment_criar_post" >
+        <action
+            android:id="@+id/action_criarPostFragment_to_postFragment"
+            app:destination="@id/postFragment"
+            app:popUpTo="@id/postFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.generation.telasdesenvolvmed.PostFragment"
+        android:label="fragment_post"
+        tools:layout="@layout/fragment_post" >
+        <action
+            android:id="@+id/action_postFragment_to_criarPostFragment"
+            app:destination="@id/criarPostFragment" />
+        <action
+            android:id="@+id/action_postFragment_to_criarComentarioFragment"
+            app:destination="@id/criarComentarioFragment" />
+        <action
+            android:id="@+id/action_postFragment_to_perfilMedicoFragment"
+            app:destination="@id/perfilMedicoFragment"
+            app:popUpTo="@id/perfilMedicoFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/criarComentarioFragment"
+        android:name="com.generation.telasdesenvolvmed.CriarComentarioFragment"
+        android:label="fragment_criar_comentario"
+        tools:layout="@layout/fragment_criar_comentario" >
+        <action
+            android:id="@+id/action_criarComentarioFragment_to_postFragment"
+            app:destination="@id/postFragment"
+            app:popUpTo="@id/postFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.generation.telasdesenvolvmed.LoginFragment"
+        android:label="fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_postFragment"
+            app:destination="@id/postFragment"
+            app:popUpTo="@id/postFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginFragment_to_esqueciSenhaFragment"
+            app:destination="@id/esqueciSenhaFragment"
+            app:popUpTo="@id/esqueciSenhaFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginFragment_to_cadastroFragment"
+            app:destination="@id/cadastroFragment"
+            app:popUpTo="@id/cadastroFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/esqueciSenhaFragment"
+        android:name="com.generation.telasdesenvolvmed.EsqueciSenhaFragment"
+        android:label="fragment_esqueci_senha"
+        tools:layout="@layout/fragment_esqueci_senha" >
+        <action
+            android:id="@+id/action_esqueciSenhaFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/tela_de_apresentacaoFragment"
+        android:name="com.generation.telasdesenvolvmed.tela_de_apresentacaoFragment"
+        android:label="fragment_tela_de_apresentacao"
+        tools:layout="@layout/fragment_tela_de_apresentacao" >
+        <action
+            android:id="@+id/action_tela_de_apresentacaoFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/cadastroFragment"
+        android:name="com.generation.telasdesenvolvmed.cadastroFragment"
+        android:label="cadastroFragment" >
+        <action
+            android:id="@+id/action_cadastroFragment_to_postFragment"
+            app:destination="@id/postFragment" />
+        <action
+            android:id="@+id/action_cadastroFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilMedicoFragment"
+        android:name="com.generation.telasdesenvolvmed.perfilMedicoFragment"
+        android:label="fragment_perfil_medico"
+        tools:layout="@layout/fragment_perfil_medico" >
+        <action
+            android:id="@+id/action_perfilMedicoFragment_to_postFragment"
+            app:destination="@id/postFragment"
+            app:popUpTo="@id/postFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_perfilMedicoFragment_to_dadosPessoaisFragment"
+            app:destination="@id/dadosPessoaisFragment"
+            app:popUpTo="@id/dadosPessoaisFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_perfilMedicoFragment_to_suporteFragment"
+            app:destination="@id/suporteFragment"
+            app:popUpTo="@id/suporteFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_perfilMedicoFragment_to_sobreFragment"
+            app:destination="@id/sobreFragment"
+            app:popUpTo="@id/sobreFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/dadosPessoaisFragment"
+        android:name="com.generation.telasdesenvolvmed.dadosPessoaisFragment"
+        android:label="fragment_dados_pessoais"
+        tools:layout="@layout/fragment_dados_pessoais" >
+        <action
+            android:id="@+id/action_dadosPessoaisFragment_to_perfilMedicoFragment"
+            app:destination="@id/perfilMedicoFragment"
+            app:popUpTo="@id/perfilMedicoFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/suporteFragment"
+        android:name="com.generation.telasdesenvolvmed.suporteFragment"
+        android:label="fragment_suporte"
+        tools:layout="@layout/fragment_suporte" >
+        <action
+            android:id="@+id/action_suporteFragment_to_perfilMedicoFragment"
+            app:destination="@id/perfilMedicoFragment"
+            app:popUpTo="@id/perfilMedicoFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/sobreFragment"
+        android:name="com.generation.telasdesenvolvmed.sobreFragment"
+        android:label="fragment_sobre"
+        tools:layout="@layout/fragment_sobre" >
+        <action
+            android:id="@+id/action_sobreFragment_to_perfilMedicoFragment"
+            app:destination="@id/perfilMedicoFragment"
+            app:popUpTo="@id/perfilMedicoFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

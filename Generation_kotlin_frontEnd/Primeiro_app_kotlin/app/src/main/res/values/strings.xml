@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Primeiro_app_kotlin</string>
+    <string name="digite_sua_senha">Digite sua Senha</string>
+    <string name="log_in">Log in</string>
+    <string name="digite_seu_e_mail">Digite seu E-mail</string>
+    <string name="todo">TODO</string>
+</resources>

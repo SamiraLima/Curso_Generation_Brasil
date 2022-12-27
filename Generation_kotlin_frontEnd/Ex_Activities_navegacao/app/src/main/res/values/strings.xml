@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ex_Activities_navegacao</string>
+    <string name="proximo">Proximo</string>
+    <string name="voltar">Voltar</string>
+</resources>

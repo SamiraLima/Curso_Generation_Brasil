@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TelasDesenvolvmed</string>
+    <string name="digite_aqui_sua_postagem">Digite aqui sua postagem:</string>
+    <string name="t_tulo_da_postagem">Título da Postagem</string>
+    <string name="informe_o_tema">Informe o tema:</string>
+    <string name="anexo_link_imgur">Anexo (link imgur)</string>
+    <string name="button">Publicar</string>
+    <string name="clips_anexo">Clips_Anexo</string>
+    <string name="action_settings" />
+
+    <string-array name="temas">
+        <item name="vacina" type="string">Vacina</item>
+        <item name="consultas" type="string">Consulta</item>
+        <item name="DoencasAutoimunes" type="string">Doenças auto imunes</item>
+        <item name="DSTS" type="string">DSTS</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addpostagembutton">addPostagemButton</string>
+    <string name="bot_o_de_busca">Botão de Busca</string>
+    <string name="bot_o_de_home">Botão de Home</string>
+    <string name="botao_de_perfil">Botao de Perfil</string>
+</resources>
